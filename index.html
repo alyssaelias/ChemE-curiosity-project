@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Basic document metadata and search/social sharing details. -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="The ChemE Notebook is a personal learning project about the chemical engineering hiding inside everyday phenomena."
+    />
+    <meta property="og:title" content="The ChemE Notebook" />
+    <meta
+      property="og:description"
+      content="Chemistry is everywhere. Alyssa is learning why."
+    />
+    <meta property="og:type" content="website" />
+    <title>The ChemE Notebook | Home</title>
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <!-- Shared site header and navigation. -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="./index.html" aria-label="The ChemE Notebook home">
+          <span class="brand-mark" aria-hidden="true"><span></span></span>
+          <span>The ChemE Notebook</span>
+        </a>
+
+        <nav class="desktop-nav" aria-label="Main navigation">
+          <a class="active" href="./index.html" aria-current="page">Home</a>
+          <a href="./episodes.html">Episodes</a>
+          <a href="./about.html">About the project</a>
+        </nav>
+
+        <details class="mobile-nav">
+          <summary aria-label="Open navigation menu">Menu</summary>
+          <nav aria-label="Mobile navigation">
+            <a class="active" href="./index.html" aria-current="page">Home</a>
+            <a href="./episodes.html">Episodes</a>
+            <a href="./about.html">About the project</a>
+          </nav>
+        </details>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <!-- Hero: the project idea in one clear sentence. -->
+      <section class="hero section">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow"><span>00</span> A personal learning project</p>
+            <h1>Chemistry is everywhere.<br /><em>I’m learning why.</em></h1>
+            <p class="hero-intro">
+              I research one chemical phenomenon every two weeks and explore
+              the chemical-engineering ideas behind it.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="./episodes.html">
+                Explore the episodes <span aria-hidden="true">→</span>
+              </a>
+              <span class="micro-label">A new question every other week</span>
+            </div>
+          </div>
+
+          <!-- Hero image and note. The alt text describes the image for screen readers. -->
+          <div class="hero-visual">
+            <div class="hero-notes">
+              <img
+                src="./chemistry-notebook.jpg"
+                alt="Bright laboratory glassware including beakers, test tubes, and graduated cylinders."
+              />
+            </div>
+            <p class="hero-note">
+              The good stuff is usually hiding in the detail. This is my
+              notebook for finding it.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Featured episode: the first investigation gets visual priority. -->
+      <section class="section section-border">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow"><span>01</span> Featured episode</p>
+            <a class="text-link" href="./episodes.html">See the archive <span aria-hidden="true">↗</span></a>
+          </div>
+          <article class="featured-card">
+            <!-- Replace src="about:blank" with a YouTube embed URL when the video is ready. -->
+            <div class="youtube-placeholder">
+              <iframe
+                class="video-frame"
+                src="https://www.youtube.com/embed/m4M5m_4ayMA?si=NJrPT1fnTfkMYoQ-"
+                title="Why do carbonated drinks lose their fizz?"
+                loading="lazy"
+                allowfullscreen>
+              </iframe>
+            </div>
+            <div class="featured-copy">
+              <p class="card-kicker">Thermodynamics / Episode 01</p>
+              <h2>Why do carbonated drinks lose their fizz?</h2>
+              <p>
+                A bottle of soda is a tiny pressure vessel. I’m looking at
+                what happens when dissolved carbon dioxide gets a chance to
+                escape.
+              </p>
+              <a class="text-link" href="./episodes.html#episode-01">Read the reflection <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Topic lenses: the chemical-engineering areas behind the questions. -->
+      <section class="section">
+        <div class="container">
+          <div class="section-heading section-heading-stacked">
+            <p class="eyebrow"><span>02</span> What I’m looking for</p>
+            <h2>Everyday questions,<br /><em>engineering lenses.</em></h2>
+          </div>
+          <div class="topic-grid">
+            <article class="topic-card">
+              <span class="topic-number">01</span>
+              <h3>Thermodynamics</h3>
+              <p>Energy, pressure, and equilibrium.</p>
+            </article>
+            <article class="topic-card">
+              <span class="topic-number">02</span>
+              <h3>Materials</h3>
+              <p>Structure, strength, and softness.</p>
+            </article>
+            <article class="topic-card">
+              <span class="topic-number">03</span>
+              <h3>Transport</h3>
+              <p>How molecules move around.</p>
+            </article>
+            <article class="topic-card">
+              <span class="topic-number">04</span>
+              <h3>Reactions</h3>
+              <p>Small changes, new substances.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Project purpose: keep the site personal and reflective. -->
+      <section class="section purpose-section">
+        <div class="container purpose-grid">
+          <p class="eyebrow"><span>03</span> Why this exists</p>
+          <div>
+            <h2>This is a self-discovery project.</h2>
+            <p class="large-copy">
+              Before I commit to chemical engineering in college, I want to
+              try the parts that sound most exciting: asking good questions,
+              following the evidence, and making a complicated idea feel
+              understandable.
+            </p>
+            <a class="button button-outline" href="./about.html">About the project <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Shared site footer. -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <span>© 2026 Alyssa Elias — Learning one phenomenon at a time.</span>
+        <span class="footer-mark" aria-hidden="true">A / C</span>
+      </div>
+    </footer>
+  </body>
+</html>
